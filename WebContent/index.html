@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+
+<html>
+	<style>
+	
+	nav{
+	background-color:#80dfff;	
+	color:black;
+	}
+	section{
+		background-color:white;
+	}
+	</style>
+	<head>
+		<title>Twitter Data Analysis using Apache Spark</title>
+		<meta charset="utf-8" />
+		<meta name="twitter" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+	<body>
+
+		
+			<div id="header">
+
+				<div class="Intro">
+
+					
+						<div id="logo">
+							<img src="images/twitter-logo.jpg" alt=""  width="150" height="50"/>
+						</div>
+
+					
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="#intro" id="top-link" class="skel-layers-ignoreHref"><span><font color="black">Intro</font></span></a></li>
+								<li><a href="#topusers" id="portfolio-link" class="skel-layers-ignoreHref"><span><font color="black">Top 9 Users</font></span></a></li>
+								<li><a href="#media" id="about-link" class="skel-layers-ignoreHref"><span><font color="black">Analysis of Media</font></span></a></li>
+								<li><a href="#hashtag" id="contact-link" class="skel-layers-ignoreHref"><span><font color="black">Analysis on HashTags</font></span></a></li>
+								<li><a href="#followers" id="about-link" class="skel-layers-ignoreHref"><span><font color="black">Follower Analysis</font></span></a></li>
+								<li><a href="#source" id="about-link" class="skel-layers-ignoreHref"><span><font color="black">Analysis on Source</font></span></a></li>
+								<li><a href="#languages" id="about-link" class="skel-layers-ignoreHref"><span><font color="black">Analysis on languages</font></span></a></li>
+								<li><a href="#locations" id="about-link" class="skel-layers-ignoreHref"><span><font color="black">Analysis on locations</font></span></a></li>
+								<li><a href="#sensitivity" id="about-link" class="skel-layers-ignoreHref"><span><font color="black">Analysis on sensitivity</font></span></a></li>
+
+							</ul>
+						</nav>
+
+				</div>
+
+				
+
+			</div>
+
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="intro" >
+						<div class="container">
+
+							<header>
+								<h2 class="alt">The visualizations given below are the results of analytical queries run on Twitter data using Apache Spark<br />
+								The tweets are collected using hashtag "Trump"</h2>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+					
+							</header>
+
+						</div>
+					</section>
+
+				
+					<section id="topusers" >
+						
+						<div class="container">	
+							<header>
+								<h2>Top 9 Users</h2>
+							</header>
+
+							<p>This graph is to show the users with most number of tweets in their profile history.</p>
+									
+							<img src="images/Query1.png" alt="Top 9 Users" width="1000" height="300" />
+						</div>
+						
+					</section>
+					
+					
+					<section id="media" class="two">
+						
+						<div class="container">
+							<header>
+								<h2>Analysis of Media</h2>
+							</header>
+
+							<p>This graph is to analyse the number of tweets which had any kind of media in them</p>
+									
+							<img src="images/Query2.png" alt="Media" width="1000" height="300" />
+						</div>
+						
+					</section>
+
+				
+					<section id="hashtag" class="two">
+						
+						<div class="container">
+							<header>
+								<h2>Analysis on HashTags</h2>
+							</header>
+
+							<p>This graph is to point the Top hashtags used by the users to tweet about TRUMP. </p>
+									
+							<img src="images/Query3.PNG" alt="Map" width="800" height="550" />
+						</div>
+						
+					</section>
+
+
+					<section id="followers" class="two">
+						
+						<div class="container">
+							<header>
+								<h2>Follower Analysis</h2>
+							</header>
+
+							<p>This graph is to distinguish the number of followers of people.</p>
+									
+							<img src="images/Query4.png" alt="Map" width="800" height="450" />
+						</div>
+						
+					</section>
+					
+					<section id="source" class="two">
+						
+						<div class="container">
+							<header>
+								<h2>Analysis on Source</h2>
+							</header>
+
+							<p>This graph is to find out how many tweets have www.twitter.com as their source </p>
+									
+							<img src="images/Query5.png" alt="Map" width="1000" height="300" />
+						</div>
+						
+					</section>
+
+					<section id="languages" class="two">
+						
+						<div class="container">
+							<header>
+								<h2>Analysis on languages</h2>
+							</header>
+
+							<p>This graph is to find out the top languages used to tweet. </p>
+									
+							<img src="images/Query6.png" alt="Map" width="1000" height="300" />
+						</div>
+						
+					</section>
+
+
+					<section id="locations" class="two">
+						
+						<div class="container">
+							<header>
+								<h2>Analysis on locations</h2>
+							</header>
+
+							<p>This graph is to show the tweets analysis using location i.e. number of tweets that originated from U.S.A. and other parts of the World .This was done using Google Fusion .</p>
+									
+							<img src="images/Query71.png" alt="Map" width="1000" height="300" />
+							<img src="images/Query72.png" alt="Map" width="1000" height="300" />
+						</div>
+						
+					</section>
+
+					<section id="sensitivity" class="two">
+						
+						<div class="container">
+							<header>
+								<h2>Analysis on sensitivity</h2>
+							</header>
+
+							<p>This graph is to show the users profile sensitivity. </p>
+									
+							<img src="images/Query8.png" alt="Map" width="1000" height="300" />
+						</div>
+						
+					</section>
+
+
+				
+
+			</div>
+
+		
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
